@@ -1,5 +1,5 @@
 # WatchTV
-Tool to extract TeamViewer encrypted passwords from Windows Registry.
+Tool to extract TeamViewer encrypted passwords from Windows Registry exploiting CVE-2019-18988.
 
 
         #################L   .###############u
