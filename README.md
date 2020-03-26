@@ -44,9 +44,10 @@ please don't!
     Required Dependencies: None
     Optional Dependencies: None
     References:
-        <a href="https://whynotsecurity.com/blog/teamviewer/">https://whynotsecurity.com/blog/teamviewer/</a>
-        <a href="https://gist.github.com/ctigeek/2a56648b923d198a6e60">https://gist.github.com/ctigeek/2a56648b923d198a6e60</a>
-    
+        "https://whynotsecurity.com/blog/teamviewer/
+        https://gist.github.com/ctigeek/2a56648b923d198a6e60
+        https://vulmon.com/vulnerabilitydetails?qid=CVE-2019-18988
+        
     .SYNOPSIS
         The main purpose of this script is to retrieve TeamViewers encrypted
         passwords from the Windows registry and to decrypt them.
