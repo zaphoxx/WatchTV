@@ -1,6 +1,7 @@
 <#
     FileName: WatchTV.ps1
     Author: Manfred Heinz (@zaphoxx,@manniTV)
+    CVE: CVE-2019-18988
     Last Update: 26.03.2020
     Licens: GNU GPLv3
     Required Dependencies: None
@@ -8,16 +9,19 @@
     References:
         https://whynotsecurity.com/blog/teamviewer/
         https://gist.github.com/ctigeek/2a56648b923d198a6e60
+	https://vulmon.com/vulnerabilitydetails?qid=CVE-2019-18988
     
     .SYNOPSIS
         The main purpose of this script is to retrieve TeamViewers encrypted
-        passwords from the Windows registry and to decrypt them.
+        passwords from the Windows registry and to decrypt them. 
+	Based on CVE-2019-18988.
 
     .DESCRIPTION
         The script uses a predefined set of registry locations and properties.
         This whole script is mainly based on the description and scripts provided
         on https://whynotsecurity.com/blog/teamviewer/. I just thought a powershell
         version for this windows specific task would be nice to have.
+	See also CVE-2019-18988 for more information.
 
     .EXAMPLE
         The file contains an example encrypted password 
