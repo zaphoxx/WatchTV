@@ -1,6 +1,7 @@
 # WatchTV
 Tool to extract TeamViewer encrypted passwords from Windows Registry.
 
+
         #################L   .###############u
         ##################N.@################ *
         ##################################### '>.n=L
@@ -21,7 +22,7 @@ Tool to extract TeamViewer encrypted passwords from Windows Registry.
         **************#       ***************
         ManniTV
 
-This is based on the blog post and scripts found here
+This is based on CVE-2019-18988 from the blog post and scripts found here
 <a href="https://whynotsecurity.com/blog/teamviewer/">https://whynotsecurity.com/blog/teamviewer/</a>.
 This is my first powershell script. So if you have any remarks or 
 suggestions on how this could be improved, don't hesitate to tell
@@ -36,6 +37,7 @@ wild on machines where you do not have the authorization to do so. So
 please don't!
 
     FileName: WatchTV.ps1
+    CVE: CVE-2019-18988
     Author: Manfred Heinz (@zaphoxx,@manniTV)
     Last Update: 26.03.2020
     Licens: GNU GPLv3
